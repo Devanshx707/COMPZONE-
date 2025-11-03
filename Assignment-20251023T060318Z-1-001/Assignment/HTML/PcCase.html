@@ -1,0 +1,113 @@
+<html><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>CompZone</title>
+<div class="header"> 
+ 
+ <div id="logo"> 
+  <img src="/Img/logo.png" alt="CompZone" height="80px" 
+  width="80px" >
+ 
+</div>
+
+</div>
+<div class="slide">
+  <button id="homebutton"><strong> <a href="/index.html" style="color: white; text-decoration: none; padding-left: 40px;" >Home</strong></a> </button>  
+
+  <button id="button1"> 
+
+  <strong>Categories</strong></button>
+  <button id="button2"><strong>Best Sellers</strong></button>
+  <button id="button3"> <strong>New Arrival</strong></button>
+ <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+</div>
+
+</div>
+
+<link rel="stylesheet" href=" /style.css" >
+<link rel="stylesheet" href="/style2.css">
+
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<h2><strong>PC Case Recommendations</strong></h2>
+<div class="PCCase">
+<div id="pr1">
+  <img src="/Img/product/PCcase/pccase1.png" alt="Pc case for gaming">
+  <h3 class="pname"><p>Zebronics Gaming PC Case</p></h3>
+  <P class="rating">Ratings ⭐⭐⭐⭐⭐⭐
+  </P>
+  <h4 class="spec">Best Seller</h4>
+<button class="buy">Buy Now</button>
+
+</div>
+<div id="pr2">
+  <img src="/Img/product/PCcase/pccase2.jpg" alt="gaming pc case">
+   <h3 class="pname"><p>MSI Gaming PC Case</p></h3>
+  <P class="rating">Ratings ⭐⭐⭐⭐⭐⭐
+  </P>
+  <h4 class="spec">Famous </h4>
+  <button class="buy">Buy Now</button>
+</div>
+<div id="pr3">
+  <img src="/Img/product/PCcase/pccase3.jpg" alt="gaming pc case">
+   <h3 class="pname"><p>Corsair Gaming PC Case</p></h3>
+  <P class="rating">Ratings ⭐⭐⭐⭐⭐⭐
+  </P>
+  <h4 class="spec">Famous </h4>
+  <button class="buy">Buy Now</button>
+</div>
+<div id="pr4">
+<img src="/Img/product/PCcase/pccase4.jpg" alt="">
+   <h3 class="pname"><p>MSI MAG Gaming PC Case</p></h3>
+  <P class="rating">Ratings ⭐⭐⭐⭐⭐⭐
+  </P>
+  <h4 class="spec">Famous </h4>
+  <button class="buy">Buy Now</button>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

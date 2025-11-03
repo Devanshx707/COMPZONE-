@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>CompZone</title>
+<div class="header"> 
+ 
+ <div id="logo"> 
+  <img src="Img/logo.png" alt="CompZone" height="80px" 
+  width="80px" >
+ <div>
+  <a href="register.html"><button id="sign"><strong>Sign Up</strong></button></a>
+ </div>
+</div>
+
+</div>
+<div class="slide">
+<button id="homebutton"><strong> <a href="index.html" style="color: white; text-decoration: none; padding-left: 40px;" >Home</strong></a> </button>  
+
+ <button id="button1"> <strong>Categories</strong></button>
+  <button id="button2"><strong>Best Sellers</strong></button>
+  <button id="button3"> <strong>New Arrival</strong></button>
+ <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+</div>
+
+</div>
+
+<link rel="stylesheet" href=" style.css">
+<link rel="stylesheet" href="style2.css">
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</head>
+<body>
+    
+<ul id="myMenu">
+  <li><a href="HTML/PcCase.html">Pc Cases</a></li>
+  <li><a href="HTML/CPU.html">CPU </a></li>
+  <li><a href="HTML/GPU.html">GPU</a></li>
+  <li><a href="HTML/Key.html">Keyboard</a></li>
+  <li><a href="HTML/mouse.html">Mouse</a></li>
+  <li><a href="HTML/Games.html">Games</a></li>
+  <li><a href="HTML/ssd.html">Storage</a></li>
+  <li><a href="HTML/ram.html">RAM</a></li>
+  <li><a href="HTML/other.html">Others...</a></li>
+</ul>
+<div class="guide">
+<h2>Step-by-Step guide on How to Build Your first PC</h2>
+<p id="det">
+  PC build is an Important skill in Today's World <br>
+  Necessary Components are on the LEFT.
+</p>
+
+
+<video width="320" height="240" controls>
+  <source src="vid/guide.mp4" type="video/mp4">
+
+Your browser does not support the video tag.
+</video>
+
+</div>
+
+<div id="bestseller">
+  <h2>Best Sellers</h2>
+  <div id="bs1">
+     <img src="Img/product/PCcase/pccase1.png" alt="Pc case for gaming">
+  <h3 class="pname"><p>Zebronics Gaming PC Case</p></h3>
+  <P class="rating">Ratings ⭐⭐⭐⭐⭐⭐
+  </P>
+  <h4 class="spec">Best Seller</h4>
+  </div>
+</div>
+
+
+
+<div class="reviews">
+  <header>Top Reviews</header>
+<div id="re1">
+  Great Service and Best Products 
+  <footer>~Customer</footer>
+</div>
+<div id="re2">
+  Superb Customer Service
+  <footer>~Customer</footer>
+</div>
+<div id="re3">
+  Great Deals and Sale
+  <footer>~Customer</footer>
+</div>
+<div id="re4">
+  Best Tech Store in Town
+   <footer>~Customer</footer>
+</div>
+<div id="re5">
+  The Prices are the best
+   <footer>~Customer</footer>
+</div>
+
+</div>
+
+
+  </body>
+  </html>

@@ -1,0 +1,135 @@
+body{
+  background-color: #2C3333;
+}
+.rform{
+  height: 500px;
+  width: 260px;
+  border-style: solid;
+  border-color: black;
+  text-align: left;
+ border-radius: 10px;
+ margin-left:550px;
+ margin-top: 50px;
+ border-width: 1px;
+ padding: 10px;
+ background-color:#2E4F4F ;
+ color:#CBE4DE ;
+}
+#name{
+    border-radius: 10px;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    height: 30px;
+    width: 200px;
+}
+#username{
+   border-radius: 10px;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    height: 30px;
+    width: 200px;
+  
+}
+#phone{
+   border-radius: 10px;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    height: 30px;
+    width: 200px;
+
+}
+#email{
+   border-radius: 10px;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    height: 30px;
+    width: 200px;
+}
+#password{
+   border-radius: 10px;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    height: 30px;
+    width: 200px;
+}
+#repassword{ border-radius: 10px;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    height: 30px;
+    width: 200px;}
+#Submit{
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+  margin-left: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color:#715A5A ;
+  color:#CBE4DE ;
+  border-color: #CBE4DE;
+}
+.pname{
+  color: white;background-color: #2E4F4F;
+  width: 225px;
+  height: 40px;
+  text-align: center;
+
+}
+.rating{
+text-align: left;
+color: #CBE4DE;
+
+}
+body{
+  background-color: rgba(1, 1, 9, 0.297);
+}
+#pr1{
+
+  background-color: #715A5A;
+width: 225px;
+image-rendering: crisp-edges;
+border-style: solid;
+border-color: #2E4F4F;
+}
+#pr2{
+  margin-left: 300px;
+  margin-top: -415px;
+    background-color: #715A5A;
+width: 225px;
+image-rendering: crisp-edges;
+border-style: solid;
+border-color: #2E4F4F;
+}
+#pr3{
+    margin-left: 600px;
+  margin-top: -415px;
+      background-color: #715A5A;
+width: 225px;
+image-rendering: crisp-edges;
+border-style: solid;
+border-color: #2E4F4f;
+}
+#pr4{
+   margin-left:900px;
+  margin-top: -415px;
+      background-color: #715A5A;
+width: 225px;
+image-rendering: crisp-edges;
+border-style: solid;
+border-color: #2E4F4f;
+}
+.PCCase{
+  margin-left: 370px;
+  margin-top: 10px;
+}
+.buy{
+  color: rgb(211, 198, 165);
+  background-color: goldenrod;
+  border-style: solid;
+  border-color: antiquewhite;
+  text-transform:uppercase ;
+  height: 20px;
+  width:100px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
